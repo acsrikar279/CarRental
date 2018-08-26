@@ -5,6 +5,6 @@ Create a class named CarRental that contains fields that hold a renter's name, z
 
 ### Compilation Instructions
 
-* Place the CarRental.java file in directory 'rental'.
-* Compile the CarRental.java by 
-<addr> javac -d . CarRental.java <addr>
+* Compile the CarRental.java by <addr>' javac -d . CarRental.java '<addr>
+* Compile both the programs LuxuryCarRental.java and UserCarRental.java normally.
+ 
