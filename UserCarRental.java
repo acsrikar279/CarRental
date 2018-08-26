@@ -12,8 +12,8 @@ class UserCarRental{
         name = sc.nextLine();
         System.out.println("Enter the Postal Address");
         zip = sc.nextLine();
-        System.out.println("Enter the Size");
-        size = sc.next();
+        System.out.println("Enter the Size ('economy' or 'luxury' or 'full size')");
+        size = sc.nextLine();
         System.out.println("Enter the Length of Rental in days");
         lengthOfRental = sc.nextInt();
         if(size.equals("luxury")){

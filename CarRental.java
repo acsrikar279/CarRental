@@ -12,6 +12,10 @@ public class CarRental{
         totalRentalFee);
     }
     public CarRental(String name, String zip, String size, int lengthOfRental){
+        this.name = name;
+        this.zip = zip;
+        this.size = size;
+        this.lengthOfRental = lengthOfRental;
         if(size.equals("economy")){
             dailyRentalFee = 29.99;
         }
